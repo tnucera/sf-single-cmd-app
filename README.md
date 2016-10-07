@@ -8,7 +8,7 @@ Symfony 3 single command app example
 
 **Dev:**
 
-Create *dc.dev.yml* :
+Create *dc.dev.yml*:
 ```
 version: '2'
 
@@ -20,7 +20,7 @@ services:
     volumes:
       - .:/app
 ```
-Run these commands :
+Run these commands:
 ```
 docker-compose -f dc.dev.yml up -d
 docker exec -it -u php sfsinglecmdapp_php_1 bash
