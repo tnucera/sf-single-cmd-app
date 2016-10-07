@@ -1,0 +1,8 @@
+services:
+    cmd.service.example:
+        class: Cmd\Service\ExampleService
+        public: true
+        arguments:
+            - "@symfony.console.output"
+            - "%message%"
+            - "%array%"

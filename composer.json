@@ -1,0 +1,40 @@
+{
+  "name": "CommandApp",
+  "description": "Example",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "symfony/console": "3.*",
+    "symfony/yaml": "3.*",
+    "symfony/expression-language": "3.*",
+    "symfony/process": "3.*",
+    "symfony/finder": "3.*",
+    "symfony/filesystem": "3.*",
+    "symfony/stopwatch": "3.*",
+    "symfony/var-dumper": "3.*",
+    "symfony/dependency-injection": "3.*",
+    "symfony/config": "3.*",
+    "symfony/event-dispatcher": "3.*",
+    "doctrine/collections": "1.*"
+  },
+  "require-dev": {
+    "herrera-io/phpunit-test-case": "1.*",
+    "mikey179/vfsStream": "1.1.0",
+    "phpunit/phpunit": "4.*"
+  },
+  "config": {
+    "bin-dir": "vendor/bin",
+    "platform": {
+      "php": "7.0.0"
+    }
+  }
+}

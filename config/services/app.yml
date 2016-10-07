@@ -1,0 +1,9 @@
+services:
+    cmd:
+        class: Symfony\Component\Console\Application
+        public: true
+        arguments:
+            - "Cmd"
+            - "1.0.0"
+        calls:
+            - [ add, [ "@cmd.command.run" ]]

@@ -1,0 +1,8 @@
+services:
+    cmd.listener.command:
+        class: Cmd\Listener\CommandListener
+        public: true
+        tags:
+            - { name: kernel.event_listener, event: console.command, method: onConsoleCommand }
+            - { name: kernel.event_listener, event: console.exception, method: onConsoleException }
+            - { name: kernel.event_listener, event: console.terminate, method: onConsoleTerminate }

@@ -1,0 +1,18 @@
+imports:
+    - { resource: services/components.yml }
+    - { resource: services/commands.yml }
+    - { resource: services/listeners.yml }
+    - { resource: services/main.yml }
+    - { resource: services/app.yml }
+
+parameters:
+    dispatcher_id: "cmd.event_dispatcher"
+
+    message: "Hello world!"
+    array:
+      integers:
+        - 1
+        - 2
+        - 3
+      string: "string"
+

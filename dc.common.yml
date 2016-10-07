@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  php:
+    build:
+      context: .
+      dockerfile: docker/php/Dockerfile
+      args:
+        GID: 1001
+        UID: 1001
+        TZ: Europe/Paris
+        PROXY: null
+        NO_PROXY: null
+    tty: true

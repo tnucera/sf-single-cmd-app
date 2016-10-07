@@ -1,0 +1,6 @@
+services:
+    cmd.command.run:
+        class: Cmd\Command\RunCommand
+        public: false
+        arguments:
+            - "@cmd.service.example"
