@@ -10,7 +10,7 @@ Symfony 3 single command app example
 **Dev:**
 
 Create *dc.dev.yml*:
-```
+``` yaml
 version: '2'
 
 services:
