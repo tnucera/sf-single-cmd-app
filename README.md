@@ -5,6 +5,7 @@ Symfony 3 single command app example
 - DI
 - Prophecy
 - Dockerized
+- ...
 
 **Dev:**
 
