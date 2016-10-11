@@ -19,12 +19,10 @@ class ExampleTest extends \PHPUnit_Framework_TestCase
     protected $example;
 
     /**
-     * Set up
+     * @before
      */
-    protected function setUp()
+    protected function init()
     {
-        parent::setUp();
-
         $this->consoleOutputProphecy = $this->prophesize(ConsoleOutput::class);
 
         $this->example = new ExampleService($this->consoleOutputProphecy->reveal(), "", []);

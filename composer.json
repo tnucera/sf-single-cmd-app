@@ -1,5 +1,5 @@
 {
-  "name": "CommandApp",
+  "name": "Cmd",
   "description": "Example",
   "license": "MIT",
   "autoload": {
@@ -27,9 +27,8 @@
     "doctrine/collections": "1.*"
   },
   "require-dev": {
-    "herrera-io/phpunit-test-case": "1.*",
-    "mikey179/vfsStream": "1.1.0",
-    "phpunit/phpunit": "4.*"
+    "mikey179/vfsStream": "1.*",
+    "phpunit/phpunit": "5.*"
   },
   "config": {
     "bin-dir": "vendor/bin",

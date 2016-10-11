@@ -18,12 +18,10 @@ class CommandListenerTest extends \PHPUnit_Framework_TestCase
     protected $commandListener;
 
     /**
-     * Set up
+     * @before
      */
-    protected function setUp()
+    protected function init()
     {
-        parent::setUp();
-
         $this->commandListener = new CommandListener();
     }
 
